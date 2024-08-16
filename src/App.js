@@ -1,6 +1,7 @@
 import React from "react";
 import Feed from "./components/Feed";
 import "./App.css";
+import { Analytics } from "@vercel/analytics/react";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
         <h1>Pinterest Clone</h1>
       </header>
       <Feed />
+      <Analytics />
     </div>
   );
 }
