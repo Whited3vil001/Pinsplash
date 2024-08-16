@@ -60,7 +60,7 @@ const Feed = () => {
         endMessage={<p>All pins loaded</p>}
       >
         <Masonry
-          breakpointCols={{ default: 4, 1100: 3, 700: 2, 500: 1 }}
+          breakpointCols={{ default: 5, 1100: 4, 700: 3, 500: 2 }}
           className="my-masonry-grid"
           columnClassName="my-masonry-grid_column"
         >
@@ -68,7 +68,8 @@ const Feed = () => {
             <div key={pin.id} className="pin">
               <img src={pin.urls.regular} alt={pin.alt_description} />
               <div className="overlay">
-                <p>{pin.alt_description || "View More"}</p>
+                <p className="title">{pin.alt_description || "😊"}</p>
+                <button className="save-button">Save</button>
               </div>
             </div>
           ))}

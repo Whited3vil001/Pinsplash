@@ -11,9 +11,15 @@ function App() {
         <img className="logo" src="/favicon.png"></img>
         <h1>Pinterest</h1>
         <h2>
-          <FontAwesomeIcon icon={faBell} />
-          <FontAwesomeIcon icon={faComment} />
-          <FontAwesomeIcon icon={faUser} />
+          <a href="#" className="button">
+            <FontAwesomeIcon icon={faBell} />
+          </a>
+          <a href="#" className="button">
+            <FontAwesomeIcon icon={faComment} />
+          </a>
+          <a href="#" className="button">
+            <FontAwesomeIcon icon={faUser} />
+          </a>
         </h2>
       </div>
       <Feed />

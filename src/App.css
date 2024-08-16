@@ -23,3 +23,21 @@ h1 {
   height: 4rem;
 }
 
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px; /* Adjust size as needed */
+  height: 40px; /* Adjust size as needed */
+  border: none;
+  background-color: transparent;
+  font-size: 1.5rem; /* Adjust icon size as needed */
+  cursor: pointer;
+  text-decoration: none;
+  color: inherit; /* Inherit color from parent or set specific color */ /* Space between buttons */
+}
+
+.button:hover {
+  color: #007bff; /* Change color on hover */
+}
+
