@@ -60,7 +60,7 @@ const Feed = () => {
         endMessage={<p>All pins loaded</p>}
       >
         <Masonry
-          breakpointCols={{ default: 5, 1100: 4, 700: 3, 500: 2 }}
+          breakpointCols={{ default: 5, 1100: 4, 700: 3, 500: 2, 300: 1 }}
           className="my-masonry-grid"
           columnClassName="my-masonry-grid_column"
         >
