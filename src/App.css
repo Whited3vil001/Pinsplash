@@ -1,40 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+.pacifico-regular {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
 .App {
   text-align: center;
   background-color: #fff;
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 h1 {
   font-size: 3rem;
+  font-family: "Pacifico", cursive; /* Corrected font-family reference */
   font-weight: bold;
-  margin-top: -0.2rem;
+  margin-top: -0.9rem;
   color: #e60e0e;
+  margin-bottom: 15px;
 }
 
 .logos {
   display: flex;
-  justify-content: space-between;
+  align-items: center;
+  justify-content: space-between; /* Added for better alignment */
+  width: 97%; /* Ensures full width for better spacing */
+  padding: 0 20px; /* Adds padding to the sides */
 }
 
-.logo {
-  width: 4rem;
-  height: 4rem;
+.bicon {
+  margin-left: auto; /* Automatically align to the right */
+  display: flex;
+  gap: 1rem; /* Space between icons */
 }
 
 .button {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 20px; /* Adjust size as needed */
-  height: 20px; /* Adjust size as needed */
+  width: 24px; /* Adjusted size */
+  height: 24px; /* Adjusted size */
   border: none;
   background-color: transparent;
-  font-size: 1.5rem; /* Adjust icon size as needed */
+  font-size: 1.5rem; /* Icon size */
   cursor: pointer;
   text-decoration: none;
-  color: inherit; /* Inherit color from parent or set specific color */ /* Space between buttons */
+  color: inherit;
 }
 
 .button:hover {
   color: #007bff; /* Change color on hover */
+}
+
+.show {
+  display: none;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 500px) {
+  .hidden {
+    display: none;
+  }
+  .show {
+    display: block;
+  }
 }
