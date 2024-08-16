@@ -4,8 +4,6 @@
   min-height: 100vh;
 }
 
-
-
 h1 {
   font-size: 3rem;
   font-weight: bold;
@@ -13,12 +11,12 @@ h1 {
   color: #e60e0e;
 }
 
-.logos{
+.logos {
   display: flex;
-  justify-content:space-between;
+  justify-content: space-between;
 }
 
-.logo{
+.logo {
   width: 4rem;
   height: 4rem;
 }
@@ -27,8 +25,8 @@ h1 {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 40px; /* Adjust size as needed */
-  height: 40px; /* Adjust size as needed */
+  width: 20px; /* Adjust size as needed */
+  height: 20px; /* Adjust size as needed */
   border: none;
   background-color: transparent;
   font-size: 1.5rem; /* Adjust icon size as needed */
@@ -40,4 +38,3 @@ h1 {
 .button:hover {
   color: #007bff; /* Change color on hover */
 }
-
