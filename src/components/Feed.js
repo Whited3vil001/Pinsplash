@@ -49,9 +49,9 @@ const Feed = () => {
 
   return (
     <div className="feed-container">
-      <header>
+      <div className="sbox">
         <SearchBar onSearch={handleSearch} />
-      </header>
+      </div>
       <InfiniteScroll
         dataLength={pins.length}
         next={() => setPage(page + 1)}
