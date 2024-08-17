@@ -31,19 +31,20 @@
 
 @media (max-width: 768px) {
   .search-form input {
-    width: 28vw;
+    width: 30vw;
   }
 
   .search-form {
     margin-bottom: 15px;
+    margin-left: 50px;
   }
 }
 
 @media (max-width: 500px) {
   .search-form {
-    margin-top: -10px;
+    margin-top: -10px;justify-content: center;
   }
   .search-form input {
-    width: 70vw;
+    width: 100vw;
   }
 }
