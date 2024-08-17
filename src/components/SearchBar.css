@@ -3,6 +3,7 @@
   justify-content: center;
   margin-bottom: 10px;
   margin-top: -65px;
+  margin-right: 50px;
 }
 
 .search-form input {
@@ -42,7 +43,8 @@
 
 @media (max-width: 500px) {
   .search-form {
-    margin-top: -10px;justify-content: center;
+    margin-top: -10px;
+    justify-content: center;
   }
   .search-form input {
     width: 100vw;
